@@ -13,11 +13,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    border-bottom: 1px #C6C6C6 solid;
 }
 .container {
     width: 375px;
     margin: 0 auto;
-    border-bottom: 1px #C6C6C6 solid;
+
     background: #FFFFFF;
 }
 .user-pfp{
@@ -92,13 +93,12 @@ body {
     width: 343px;
     height: 16px;
     color: #000000;
-    margin: 0px 19px 12px 13px;
+    margin: 0px 19px 10px 13px;
 }
 .post-description{
     width: 343px;
     height: 16px;
-    margin-left:  13px;
-
+    margin-left: 13px;
 }
 .bold {
     font-size: 13px;
