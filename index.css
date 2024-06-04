@@ -1,0 +1,113 @@
+* {
+object-fit: cover;
+box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Source Sans 3';
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.container {
+    width: 375px;
+    margin: 0 auto;
+    border-bottom: 1px #C6C6C6 solid;
+    background: #FFFFFF;
+}
+.user-pfp{
+    width: 34px;
+    height: 34px;
+    border-radius: 20px;
+    float: left
+}
+.logo {
+    width: 127px;
+}
+
+.post {
+    height: 545px;
+    
+}
+.post-header{
+    padding: 10px 17px 10px 10px;
+    width: 348px;
+    display: flex;
+    align-items: center;
+}
+
+.poster-pfp {
+    width: 34px;
+    height: 34px;
+    border-radius: 20px;
+    margin-right: 7px;
+}
+.poster-info {
+    display: flex;
+    flex-direction: column;
+    
+}
+.username{
+    /* Typography */
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16.34px;
+}
+
+.location {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+}
+
+/*Post Image*/ 
+.post-image{
+    width: 375px;
+    height: 375px;
+}
+
+
+/*Post Icons and Container*/
+.icon-container {
+    width: 115px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px 0;
+    
+}
+.icon {
+    width: 24px;
+    height: 24px;
+}
+.likes, .post-description {
+    display: block;
+}
+.likes {
+    width: 343px;
+    height: 16px;
+    color: #000000;
+    margin: 0px 19px 12px 13px;
+}
+.post-description{
+    width: 343px;
+    height: 16px;
+    margin-left:  13px;
+
+}
+.bold {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16.34px;
+    text-align: left;
+}
+section{
+    border-bottom: 20px solid #EDEDED;
+    width: 375px;
+    margin: 0 auto;
+}
