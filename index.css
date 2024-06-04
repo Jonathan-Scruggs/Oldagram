@@ -1,6 +1,7 @@
 * {
 object-fit: cover;
 box-sizing: border-box;
+user-select: none;
 }
 body {
     margin: 0;
@@ -31,10 +32,10 @@ body {
     width: 127px;
 }
 
-.post {
-    height: 545px;
+/* .post {
+    height: 555px;
     
-}
+} */
 .post-header{
     padding: 10px 17px 10px 10px;
     width: 348px;
@@ -86,28 +87,34 @@ body {
     width: 24px;
     height: 24px;
 }
-.likes, .post-description {
-    display: block;
-}
-.likes {
-    width: 343px;
-    height: 16px;
-    color: #000000;
-    margin: 0px 19px 10px 13px;
+
+.post-interactions{
+    font-size: 13px;
+    width: 347px;
+    margin-left:13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .post-description{
-    width: 343px;
-    height: 16px;
-    margin-left: 13px;
+    padding: 12px 0;
 }
 .bold {
-    font-size: 13px;
     font-weight: 700;
     line-height: 16.34px;
     text-align: left;
+    color: #000000;
 }
+
 section{
     border-bottom: 20px solid #EDEDED;
     width: 375px;
     margin: 0 auto;
+}
+
+
+/* ICON Hover Effect */
+.icon:hover {
+    transform: scale(1.2);
+
 }
